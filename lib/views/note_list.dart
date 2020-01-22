@@ -23,8 +23,8 @@ class _NoteListState extends State<NoteList> {
 
   @override
   void initState() {
-    _fetchNotes();
     super.initState();
+    _fetchNotes();
   }
 
   @override
@@ -50,7 +50,7 @@ class _NoteListState extends State<NoteList> {
             }
 
             if (_apiResponse.error) {
-              Center(
+              return Center(
                 child: Text(_apiResponse.errorMessage),
               );
             }

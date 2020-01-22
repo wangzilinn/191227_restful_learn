@@ -119,13 +119,12 @@ class _NoteModifyState extends State<NoteModify> {
                                         },
                                       )
                                     ],
-                                  )).then((data){
-                                    if (result.data){
-                                      Navigator.of(context).pop();
-                                    }
+                                  )).then((data) {
+                            if (result.data) {
+                              Navigator.of(context).pop();
+                            }
                           });
                         }
-//                        Navigator.of(context).pop();
                       },
                     ),
                   )

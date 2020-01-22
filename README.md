@@ -9,7 +9,7 @@ YouTube教程在这里:https://www.youtube.com/watch?v=M8zM48Jytv0&list=PL_Wj0Dg
 ## 笔记
 ### 工程结构
 1. models里面是数据结构
-2. 
+2. services里面是一个联网的服务
 ### main.dart
 #### setupLoactor():
 main()最开始先创建了一个setupLocator()函数,这个函数通过**GetIt**注册了一个服务:NotesService,这个服务是用来连接网络获取消息的
