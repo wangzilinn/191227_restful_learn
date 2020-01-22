@@ -10,7 +10,7 @@ class NoteInsert {
   });
 
 
-  Map<String, dynamic> toJson() {
+  Map<String, dynamic> toMap() {
     return {
       "noteTitle": noteTitle,
       "noteConten": noteContent
